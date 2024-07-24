@@ -80,6 +80,7 @@ ul.nav-items li:first-child a {
     display: none;
     color: white;
     font-size: 25px;
+    cursor: pointer;
 }
 .banner{
     color: white;
@@ -474,6 +475,7 @@ ul.footer-get-link{
     margin-bottom: 35px;
 }
 /* Footer section styles  */
+
 
 
 /* Responsive Design */
