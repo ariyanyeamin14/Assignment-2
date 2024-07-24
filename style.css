@@ -477,7 +477,7 @@ ul.footer-get-link{
 
 
 /* Responsive Design */
-@media screen and (max-width:576px){
+@media screen and (min-width:401px) and (max-width:576px){
     nav, .banner, section, .run, .bmi-chart-calculator{
         max-width: 90%;
     }
@@ -581,6 +581,113 @@ ul.footer-get-link{
     }
     .banner-title span{
         font-size: 80px;
+    }
+}
+
+@media screen and (max-width:400px){
+    nav, .banner, section, .run, .bmi-chart-calculator{
+        max-width: 90%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .banner, .habits-container, .run, .bmi-chart-calculator{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 52px;
+    }
+    .banner-btn button {
+        font-size: 18px;
+        padding: 17px 11px;
+        font-weight: 500;
+    }
+    .img-card-2{
+        width: 46%;
+        top: 131px;
+        left: 160px;
+        padding: 10px;
+    }
+    .img-card-2 h4{
+        font-size: 2.3rem;
+    }
+    .img-card-1{
+        top: 415px;
+        left: -4px;
+        gap: 12px;
+    }
+    .section-title{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .habits-box{
+        margin-bottom: 25px;
+    }
+    .run{
+        padding: 15px 5px;
+        max-width: 85%;
+    }
+    .run-content, .run-img{
+        width: 90%;
+    }
+    button.run-btn {
+        margin-bottom: 30px;
+        font-size: 19px;
+        padding: 20px 115px;
+    }
+    h2.run-title {
+        font-size: 48px;
+    }
+    p.run-description.desc {
+        font-size: 16px;
+    }
+    .bmi-chart, .bmi-calculator{
+        max-width: 100%;
+    }
+    select#bmi-activity {
+        padding: 15px 55px;
+        width: -webkit-fill-available;
+    }
+    h4.bmi-calculator-title, .bmi-chart-title {
+        font-size: 30px;
+    }
+    input{
+        width: 40%;
+        padding: 15px 10px;
+    }
+    select#bmi-gender {
+        padding: 15px 21px;
+        width: 46%;
+    }
+    #bmi-calculate{
+        /* padding: 15px 70px; */
+        padding: 20px 80px;
+        width: auto;
+    }
+    .bmi-top-text {
+        max-width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .team-container, .footer-container, .footer-get-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    p.footer-fitness-desc.desc {
+        width: 310px;
+    }
+    .plane-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        max-width: 85%;
+    }
+    .plane-card{
+        padding: 15px 0;
+    }
+    .bars-icon{
+        display: block;
+    }
+    .banner-title span{
+        font-size: 75px;
     }
 }
 /* Responsive Design */
